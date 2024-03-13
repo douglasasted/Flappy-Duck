@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66019f876935e994299d490cc90e866d
+guid: 2c9de03c38c8b3045800dc85fd3b34ed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Duck_0
+      name: Obstacle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 80
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e92bfcdfa0a03846be7a1f75381be93
-      internalID: -1001824567
+      spriteID: c10645f0c5b9f1245acc3f2b6e04833e
+      internalID: -667621193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Duck_1
+      name: Obstacle_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 80
         y: 0
-        width: 32
-        height: 32
+        width: 80
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68b1388074f2b014aa830136392ee9fb
-      internalID: 445463616
+      spriteID: a2576acd11cefa1489838a501c331737
+      internalID: 1575326978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Duck_2
+      name: Obstacle_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 160
         y: 0
-        width: 32
-        height: 32
+        width: 80
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cb686076e63f734f9aaa5ad068cf89f
-      internalID: 1119866094
+      spriteID: 3b16ecb911f88ae4db1c8661c01dc361
+      internalID: 1676592731
       vertices: []
       indices: 
       edges: []
@@ -183,9 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Duck_0: -1001824567
-      Duck_1: 445463616
-      Duck_2: 1119866094
+      Obstacle_0: -667621193
+      Obstacle_1: 1575326978
+      Obstacle_2: 1676592731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

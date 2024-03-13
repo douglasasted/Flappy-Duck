@@ -27,6 +27,6 @@ public class PlayerMovement : MonoBehaviour
             currentCooldown = cooldown;
         }
 
-        transform.rotation = Quaternion.Euler(0, 0, Mathf.Clamp(rb.velocity.y / jumpForce, -90, 90) * 90);
+        transform.rotation = rb.velocity.y < 10 ? Quaternion.Euler(0, 0, Mathf.Clamp(rb.velocity.y / jumpForce, -90, 90) * 90) : transform.rotation;
     }
 }

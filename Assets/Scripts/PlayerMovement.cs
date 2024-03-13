@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -28,5 +29,15 @@ public class PlayerMovement : MonoBehaviour
         }
 
         transform.rotation = rb.velocity.y < 10 ? Quaternion.Euler(0, 0, Mathf.Clamp(rb.velocity.y / jumpForce, -90, 90) * 90) : transform.rotation;
+    }
+
+    void OnTriggerEnter2D(Collider2D other) 
+    {
+        print("wtf");
+
+        if (other.gameObject.tag == "Wall")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }

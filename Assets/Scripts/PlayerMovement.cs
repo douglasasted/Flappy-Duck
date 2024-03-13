@@ -33,8 +33,6 @@ public class PlayerMovement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) 
     {
-        print("wtf");
-
         if (other.gameObject.tag == "Wall")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
